@@ -9,21 +9,21 @@
 * npm install
 ---
 **Команды**
-gulp start - запускает сборку и запускает результат в браузере
-gulp css - собирает минифицированный CSS файл. В процессе использует sourcemap и autoprefixer
-gulp images - оптимизирует SVG
+* gulp start - запускает сборку и запускает результат в браузере
+* gulp css - собирает минифицированный CSS файл. В процессе использует sourcemap и autoprefixer
+* gulp images - оптимизирует SVG
 ---
 **Плагины**
-[plumber](https://www.npmjs.com/package/gulp-plumber): при появлении ошибки, формирует вывод о её наличии, не прерывая работу Gulp.
-[sourcemap](https://www.npmjs.com/package/gulp-sourcemaps): позволяет быстро вносить правки, особенно когда для сборки используется несколько файлов.
-[sass](https://www.npmjs.com/package/gulp-sass): преобразует SASS в CSS
-[postcss](https://www.npmjs.com/package/gulp-postcss): процессор CSS? преобразует исходный CSS в модифицированный CSS с помощью плагинов.
-[autoprefixer](https://www.npmjs.com/package/autoprefixer): автоматически добавляет вендорные префиксы к CSS свойствам.
-[csso](https://www.npmjs.com/package/gulp-csso): минифицирует CSS.
-[rename](https://www.npmjs.com/package/gulp-rename): переименовывает файлы.
-[imagemin](https://www.npmjs.com/package/gulp-imagemin): оптимизиует изображения.
-[server](https://www.npmjs.com/package/browser-sync): запускает веб-сервер и перегружает его в реальном времени.
-[del](https://www.npmjs.com/package/del): удаляет файлы.
+* [plumber](https://www.npmjs.com/package/gulp-plumber): при появлении ошибки, формирует вывод о её наличии, не прерывая работу Gulp.
+* [sourcemap](https://www.npmjs.com/package/gulp-sourcemaps): позволяет быстро вносить правки, особенно когда для сборки используется несколько файлов.
+* [sass](https://www.npmjs.com/package/gulp-sass): преобразует SASS в CSS
+* [postcss](https://www.npmjs.com/package/gulp-postcss): процессор CSS? преобразует исходный CSS в модифицированный CSS с помощью плагинов.
+* [autoprefixer](https://www.npmjs.com/package/autoprefixer): автоматически добавляет вендорные префиксы к CSS свойствам.
+* [csso](https://www.npmjs.com/package/gulp-csso): минифицирует CSS.
+* [rename](https://www.npmjs.com/package/gulp-rename): переименовывает файлы.
+* [imagemin](https://www.npmjs.com/package/gulp-imagemin): оптимизиует изображения.
+* [server](https://www.npmjs.com/package/browser-sync): запускает веб-сервер и перегружает его в реальном времени.
+* [del](https://www.npmjs.com/package/del): удаляет файлы.
 ---
 ---
 # Заготовка для readme.md проекта «project-name»
