@@ -29,7 +29,7 @@ gulp images - оптимизирует SVG
 # Заготовка для readme.md проекта «project-name»
 Выполнила: [Татьяна Бак](https://github.com/tatyanabak).
 Посмотреть результат: [project-name](https://tatyanabak.github.io/project-name/).
----
+
 **Описание проекта**
 
 **Задачи проекта**
@@ -38,11 +38,11 @@ gulp images - оптимизирует SVG
 
 **Используемые языки и технологии**
 * HTML, CSS
-* HTML проверен на валидность с помощью [validator.w3.org] (https://validator.w3.org/)
-* HTML и CSS соответствуют [кодгайду HTML Academy] (https://codeguide.academy/html-css.html)
+* HTML проверен на валидность с помощью [validator.w3.org](https://validator.w3.org/)
+* HTML и CSS соответствуют [кодгайду HTML Academy](https://codeguide.academy/html-css.html)
 * Проверка кода осуществляется с помощью editorconfig, stylelint (конфиругации взяты у HTML Academy)
 
-* JS соответствуют [кодгайду HTML Academy] (https://codeguide.academy/javascript.html)
+* JS соответствуют [кодгайду HTML Academy](https://codeguide.academy/javascript.html)
 * Проверка кода осуществляется с помощью eslint
 
 * Сборка выполняется посредством Gulp
