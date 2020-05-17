@@ -1,19 +1,27 @@
 # Заготовка для проектов
+
 * Для сборки используется Gupl
 * Препроцессор SASS
 * Только осваиваю Gupl, так что всё еще будет меняться и дорабатываться
 ---
 **Установка**
-* git clone https://github.com/tatyanabak/template_for_project_with_Gulp.git my-project
-* cd my-project
-* npm install
+
+git clone https://github.com/tatyanabak/Template_for_project_with_Gulp.git my-project
+
+cd my-project
+
+npm install
 ---
 **Команды**
-* gulp start - запускает сборку и запускает результат в браузере
-* gulp css - собирает минифицированный CSS файл. В процессе использует sourcemap и autoprefixer
-* gulp images - оптимизирует SVG
+
+**gulp start** - запускает сборку и запускает результат в браузере
+
+**gulp css** - собирает минифицированный CSS файл. В процессе использует sourcemap и autoprefixer
+
+**gulp images** - оптимизирует SVG
 ---
 **Плагины**
+
 * [plumber](https://www.npmjs.com/package/gulp-plumber): при появлении ошибки, формирует вывод о её наличии, не прерывая работу Gulp.
 * [sourcemap](https://www.npmjs.com/package/gulp-sourcemaps): позволяет быстро вносить правки, особенно когда для сборки используется несколько файлов.
 * [sass](https://www.npmjs.com/package/gulp-sass): преобразует SASS в CSS
