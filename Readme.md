@@ -13,6 +13,7 @@ cd my-project
 npm install
 
 ---
+
 **Команды**
 
 **gulp start** - запускает сборку и запускает результат в браузере
@@ -20,7 +21,9 @@ npm install
 **gulp css** - собирает минифицированный CSS файл. В процессе использует sourcemap и autoprefixer
 
 **gulp images** - оптимизирует SVG
+
 ---
+
 **Плагины**
 
 * [plumber](https://www.npmjs.com/package/gulp-plumber): при появлении ошибки, формирует вывод о её наличии, не прерывая работу Gulp.
