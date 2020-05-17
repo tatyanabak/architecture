@@ -11,6 +11,7 @@ git clone https://github.com/tatyanabak/Template_for_project_with_Gulp.git my-pr
 cd my-project
 
 npm install
+
 ---
 **Команды**
 
