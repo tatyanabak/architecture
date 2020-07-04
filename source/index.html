@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>project-name</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link rel="stylesheet" href="css/style.min.css">
-	</head>
-	<body>
-		<h1>project-name</h1>
-	</body>
-	</html>
+  <head>
+    <meta charset="utf-8">
+    <title>Архитектурный блог</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="page-title">Архитектурный <span>блог</span></h1>
+      <nav class="page-menu">
+        <ul class="page-menu__list">
+          <li class="page-menu__item">
+            <a href="#" class="page-menu__link">Современные здания</a>
+          </li>
+          <li class="page-menu__item">
+            <a href="#" class="page-menu__link">Старинные здания</a>
+          </li>
+          <li class="page-menu__item">
+            <a href="#" class="page-menu__link">Последние проекты</a>
+          </li>
+          <li class="page-menu__item">
+            <a href="#" class="page-menu__link page-menu__link--active">Архитектурные новости</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="slider">
+        <h2 class="visually-hidden">Популярные статьи</h2>
+        <ul class="slider__list">
+          <li class="slider__item">
+            <article class="slide">
+              <h3 class="slide__title">Стекло. Красота и безопасность в архитектуре</h3>
+              <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="slider__item slider__item--current">
+            <article class="slide">
+              <h3 class="slide__title">Самые актуальные архитектурные новости</h3>
+              <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="slider__item">
+            <article class="slide">
+              <h3 class="slide__title">Архитектурная мода 2019 года</h3>
+              <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="slider__item">
+            <article class="slide">
+              <h3 class="slide__title">Современные строения</h3>
+              <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+        </ul>
+        <ol class="slider__control">
+          <li class="slider__control-item">
+            <button class="slider__toggle" type="button">Слайд со стеклом, красотой и безопасностью в архитектуре</button>
+          </li>
+          <li class="slider__control-item">
+            <button class="slider__toggle slider__toggle--current" type="button">Слайд с самыми актуальными архитектурными новостями</button>
+          </li>
+          <li class="slider__control-item">
+            <button class="slider__toggle" type="button">Слайд с архитектурной модой 2019 года</button>
+          </li>
+          <li class="slider__control-item">
+            <button class="slider__toggle" type="button">Слайд с современными строениями</button>
+          </li>
+        </ol>
+      </section>
+      <section class="blog">
+        <h2 class="blog__category category">Современные здания</h2>
+        <ul class="blog__galleries galleries">
+          <li class="galleries__item gallery">
+            <h3 class="gallery__title">Офисные здания</h3>
+          </li>
+          <li class="galleries__item gallery">
+            <h3 class="gallery__title">Жилые помещения</h3>
+          </li>
+        </ul>
+      </section>
+      <section class="subscription">
+        <h2 class="subscription__title">Подпишитесь на нашу e-mail рассылку</h2>
+        <form class="subscription__form form" action="#" method="post">
+          <input type="text" class="form__input" placeholder="Введите Ваш e-mail">
+          <button class="form__btn btn btn--solid" type="submit">Подписаться</button>
+        </form>
+      </section>
+      <section class="blog">
+        <h2 class="blog__category category">Старинные здания</h2>
+        <ul class="blog__galleries galleries">
+          <li class="galleries__item gallery">
+            <h3 class="gallery__title">Религиозные строения</h3>
+          </li>
+          <li class="galleries__item gallery">
+            <h3 class="gallery__title">Туристические здания</h3>
+          </li>
+        </ul>
+      </section>
+      <section class="simple-slider">
+        <h2 class="visually-hidden">Интересные статьи</h2>
+        <ul class="simple-slider__list">
+          <li class="simple-slider__item">
+            <article class="simple-slide">
+              <p class="simple-slide__category category">Архитектурные новости</p>
+              <h3 class="simple-slide__title">Архитектурная мода 2020 года</h3>
+              <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="simple-slider__item simple-slider__item--current">
+            <article class="simple-slide">
+              <p class="simple-slide__category category">Архитектурные новости</p>
+              <h3 class="simple-slide__title">Самые необычные здания во всем мире</h3>
+              <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="simple-slider__item">
+            <article class="simple-slide">
+              <p class="simple-slide__category category">Архитектурные новости</p>
+              <h3 class="simple-slide__title">Объявлены победители Архитектурной премии Москвы 2020</h3>
+              <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+          <li class="simple-slider__item">
+            <article class="simple-slide">
+              <p class="simple-slide__category category">Архитектурные новости</p>
+              <h3 class="simple-slide__title">MosBuild объявляет о запуске премии для молодых архитекторов и студентов</h3>
+              <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="subscription">
+        <h2 class="subscription__title">Подпишитесь на нашу e-mail рассылку</h2>
+        <form class="subscription__form form" action="#" method="post">
+          <input type="text" class="form__input" placeholder="Введите Ваш e-mail">
+          <button class="form__btn btn btn--solid" type="submit">Подписаться</button>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link" href="#">Facebook</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Twitter</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Instagram</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Pinterest</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Google</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Spotify</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Tumblr</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
