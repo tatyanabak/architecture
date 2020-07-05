@@ -1,0 +1,13 @@
+.category {
+  box-sizing: border-box;
+  padding: 10px 20px;
+
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: center;
+  color: $color-basic-contrast;
+  text-decoration: none;
+
+  background-color: $color-accent;
+  border-radius: 20px;
+}

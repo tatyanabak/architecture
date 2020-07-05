@@ -1,0 +1,16 @@
+.page-menu__list {
+  @include list-reset;
+}
+
+.page-menu__link {
+  font-size: 18px;
+  line-height: 1.2em;
+
+  border-bottom: 1px solid transparent;
+
+  @include link-reset;
+
+  &--active {
+    border-bottom: 1px solid $color-accent;
+  }
+}

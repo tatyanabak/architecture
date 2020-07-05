@@ -1,0 +1,7 @@
+.simple-slider {
+  background-color: #404040;
+}
+
+.simple-slider__list {
+  @include list-reset;
+}

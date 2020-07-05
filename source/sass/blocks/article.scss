@@ -1,0 +1,37 @@
+.article__title {
+  font-weight: 700;
+  color: $color-secondary;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+}
+
+.article__lead {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.article__img-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: $color-secondary;
+}
+
+.article__img-name {
+  font-weight: 500;
+  line-height: 1.7em;
+  color: $color-secondary;
+  text-transform: uppercase;
+}
+
+.article__img-place {
+  font-size: 14px;
+  line-height: 1.7em;
+  color: rgba(0, 0, 0, 0.5);
+}

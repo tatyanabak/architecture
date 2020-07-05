@@ -1,0 +1,11 @@
+.social__list {
+  @include list-reset;
+}
+
+.social__item {
+  outline: 1px solid red;
+}
+
+.social__link {
+  font-size: 0;
+}

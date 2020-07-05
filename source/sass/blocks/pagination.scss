@@ -1,0 +1,17 @@
+.pagination__list {
+  @include list-reset;
+}
+
+.pagination__item {
+  &--current {
+    color: $color-accent;
+  }
+}
+
+.pagination__link {
+  font-weight: 500;
+  line-height: 1.7em;
+  text-align: center;
+
+  @include link-reset;
+}

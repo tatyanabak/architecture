@@ -1,0 +1,16 @@
+.slider__list {
+  @include list-reset;
+}
+
+.slider__control {
+  @include list-reset;
+}
+
+.slider__toggle {
+  font-size: 0;
+
+  background-color: inherit;
+  border: none;
+  outline: 1px solid red;
+  cursor: pointer;
+}

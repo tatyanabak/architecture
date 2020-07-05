@@ -1,0 +1,13 @@
+.description dt {
+  font-weight: 500;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.description dd {
+  margin-left: 0;
+
+  font-weight: 500;
+  line-height: 1.2em;
+  color: $color-accent;
+}
