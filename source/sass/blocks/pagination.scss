@@ -14,4 +14,13 @@
   text-align: center;
 
   @include link-reset;
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+
+  &:active {
+    color: $color-accent-dark;
+  }
 }

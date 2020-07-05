@@ -10,6 +10,15 @@
 
   @include link-reset;
 
+  &:hover,
+  &:focus {
+    border-bottom: 1px solid $color-accent;
+  }
+
+  &:active {
+    color: $color-accent;
+  }
+
   &--active {
     border-bottom: 1px solid $color-accent;
   }

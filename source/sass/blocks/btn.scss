@@ -5,14 +5,32 @@
   text-decoration: none;
 
   border: 1px solid $color-basic-contrast;
-
-  @include btn-reset;
+  outline: none;
 
   &--transparent {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
+  &--transparent:hover,
+  &--transparent:focus {
+    background-color: $color-secondary;
+  }
+
+  &--transparent:active {
+    color: #858585;
+  }
+
   &--solid {
     background-color: $color-secondary;
+    border: 1px solid $color-secondary;
+  }
+
+  &--solid:hover,
+  &--solid:focus {
+    color: #858585;
+  }
+
+  &--solid:active {
+    color: #5c5c5c;
   }
 }

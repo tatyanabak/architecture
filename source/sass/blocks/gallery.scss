@@ -1,13 +1,19 @@
-.gallery__title {
+.gallery__link {
   font-weight: 500;
   color: $color-secondary;
   text-transform: uppercase;
   letter-spacing: 0.13em;
 
   border-bottom: 1px solid transparent;
-}
 
-.gallery__title:hover,
-.gallery__title:focus {
-  border-bottom: 1px solid $color-accent;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    border-bottom: 1px solid $color-accent;
+  }
+
+  &:active {
+    color: $color-accent;
+  }
 }

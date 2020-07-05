@@ -6,16 +6,46 @@
 }
 
 .more-info__list {
+  display: flex;
+
   @include list-reset;
 }
 
 .more-info__link {
-  @include link-reset;
-}
+  height: 132px;
+  width: 145px;
 
-.more-info__link:hover,
-.more-info__link:focus {
-  color: $color-accent;
+  @include link-reset;
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+
+  &:active {
+    color: $color-accent-dark;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 145px;
+    height: 132px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--popular::before {
+    background-image: url("../img/more-info-popular.png");
+  }
+
+  &--wave::before {
+    background-image: url("../img/more-info-wave.png");
+  }
+
+  &--glass::before {
+    background-image: url("../img/more-info-glass.png");
+  }
 }
 
 .more-info__article-title {

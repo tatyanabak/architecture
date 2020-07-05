@@ -1,3 +1,31 @@
+.description {
+  display: flex;
+
+  &::before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 33px;
+  }
+
+  &--author::before {
+    background-image: url("../img/description-author.svg");
+    background-size: 32px 33px;
+  }
+
+  &--time::before {
+    background-image: url("../img/description-time.svg");
+    background-size: 33px 33px;
+  }
+
+  &--datetime::before {
+    background-image: url("../img/description-datetime.svg");
+    background-size: 31px 33px;
+  }
+}
+
 .description dt {
   font-weight: 500;
   line-height: 1.2em;

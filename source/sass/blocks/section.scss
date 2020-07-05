@@ -17,10 +17,15 @@
 .section__link {
   color: $color-secondary;
   text-decoration: none;
-}
 
-.section__link:hover {
-  color: $color-accent;
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+
+  &:active {
+    color: $color-accent-dark;
+  }
 }
 
 .section__article-title {
