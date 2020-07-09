@@ -8,20 +8,23 @@
   </head>
   <body>
     <header class="page-header">
-      <h1 class="page-title">Архитектурный <span>блог</span></h1>
+      <h1 class="visually-hidden">Архитектурный >блог</h1>
+      <a class="page-header__logo-link">
+        <img src="img/logo.svg" alt="логотип блога" width="370" height="40">
+      </a>
       <nav class="page-menu">
         <ul class="page-menu__list">
           <li class="page-menu__item">
-            <a href="#" class="page-menu__link">Современные здания</a>
+            <a class="page-menu__link" href="#">Современные здания</a>
           </li>
           <li class="page-menu__item">
-            <a href="#" class="page-menu__link">Старинные здания</a>
+            <a class="page-menu__link" href="#">Старинные здания</a>
           </li>
           <li class="page-menu__item">
-            <a href="#" class="page-menu__link">Последние проекты</a>
+            <a class="page-menu__link" href="#">Последние проекты</a>
           </li>
           <li class="page-menu__item">
-            <a href="#" class="page-menu__link page-menu__link--active">Архитектурные новости</a>
+            <a class="page-menu__link page-menu__link--active" href="#">Архитектурные новости</a>
           </li>
         </ul>
       </nav>
@@ -30,7 +33,7 @@
       <section class="slider">
         <h2 class="visually-hidden">Популярные статьи</h2>
         <ul class="slider__list">
-          <li class="slider__item">
+          <li class="slider__item visually-hidden">
             <article class="slide">
               <h3 class="slide__title">Стекло. Красота и безопасность в архитектуре</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
@@ -38,7 +41,7 @@
           </li>
           <li class="slider__item slider__item--current">
             <article class="slide">
-              <h3 class="slide__title">Самые актуальные архитектурные новости</h3>
+              <h3 class="slide__title slide__title--current">Самые актуальные архитектурные новости</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
@@ -55,20 +58,22 @@
             </article>
           </li>
         </ul>
-        <ol class="slider__control">
-          <li class="slider__control-item">
-            <button class="slider__toggle" type="button">Слайд со стеклом, красотой и безопасностью в архитектуре</button>
-          </li>
-          <li class="slider__control-item">
-            <button class="slider__toggle slider__toggle--current" type="button">Слайд с самыми актуальными архитектурными новостями</button>
-          </li>
-          <li class="slider__control-item">
-            <button class="slider__toggle" type="button">Слайд с архитектурной модой 2019 года</button>
-          </li>
-          <li class="slider__control-item">
-            <button class="slider__toggle" type="button">Слайд с современными строениями</button>
-          </li>
-        </ol>
+        <div class="slider__control">
+          <ol class="slider__control-list">
+            <li class="slider__control-item">
+              <button class="slider__toggle" type="button">Слайд со стеклом, красотой и безопасностью в архитектуре</button>
+            </li>
+            <li class="slider__control-item">
+              <button class="slider__toggle slider__toggle--current" type="button">Слайд с самыми актуальными архитектурными новостями</button>
+            </li>
+            <li class="slider__control-item">
+              <button class="slider__toggle" type="button">Слайд с архитектурной модой 2019 года</button>
+            </li>
+            <li class="slider__control-item">
+              <button class="slider__toggle" type="button">Слайд с современными строениями</button>
+            </li>
+          </ol>
+        </div>
       </section>
       <section class="galleries">
         <a class="category" href="#">Современные здания</a>
