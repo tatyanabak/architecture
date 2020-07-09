@@ -1,7 +1,22 @@
+.social {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .social__list {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-bottom: 0;
+  margin-left: -20px;
+  padding-left: 0;
 
-  @include list-reset;
+  list-style: none;
+}
+
+.social__item {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .social__link {
