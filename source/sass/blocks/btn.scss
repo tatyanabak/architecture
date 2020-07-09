@@ -1,4 +1,5 @@
 .btn {
+  min-width: 200px;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -11,8 +12,6 @@
   outline: none;
 
   &--transparent {
-    min-width: 200px;
-
     background-color: rgba(0, 0, 0, 0.3);
   }
 

@@ -1,9 +1,16 @@
 .subscription {
+  padding: 95px 0;
+
   background-color: #f3f3f7;
 }
 
 .subscription__title {
   font-weight: 400;
   font-size: 30px;
+  line-height: 1.25em;
   text-align: center;
+}
+
+.subscription__form {
+  @include wrapper;
 }

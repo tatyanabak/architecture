@@ -1,5 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .form__input {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+
   font-size: 14px;
   line-height: 1.4em;
-  color: #9a9a9a;
+
+
+  &::placeholder {
+    color: #9a9a9a;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 350px;
+    margin-bottom: 0;
+  }
 }
