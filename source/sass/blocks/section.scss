@@ -1,3 +1,7 @@
+.section {
+  @include wrapper;
+}
+
 .section__title {
   font-weight: 600;
   color: $color-secondary;

@@ -18,3 +18,48 @@
   background-color: inherit;
   border: none;
 }
+
+@mixin wrapper {
+  margin-right: $mobile-indent;
+  margin-left: $mobile-indent;
+
+  background-color: yellow;
+
+  @media (min-width: $tablet-width) {
+    margin-right: $tablet-indent;
+    margin-left: $tablet-indent;
+
+    background-color: orange;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 952px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: #b2ff6e;
+  }
+}
+
+@mixin large-wrapper {
+  margin-right: $mobile-indent;
+  margin-left: $mobile-indent;
+
+  background-color: yellow;
+
+  @media (min-width: $tablet-width) {
+    margin-right: $tablet-indent;
+    margin-left: $tablet-indent;
+
+    background-color: orange;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: #b2ff6e;
+    outline: 1px solid red;
+  }
+}

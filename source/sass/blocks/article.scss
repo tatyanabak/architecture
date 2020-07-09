@@ -1,3 +1,7 @@
+.article {
+  @include wrapper;
+}
+
 .article__title {
   font-weight: 700;
   color: $color-secondary;

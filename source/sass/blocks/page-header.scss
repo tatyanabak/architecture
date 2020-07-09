@@ -1,0 +1,13 @@
+.page-header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 125px;
+  }
+}
+
+.page-header__logo-link {
+  align-self: center;
+}

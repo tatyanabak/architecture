@@ -1,3 +1,7 @@
+.galleries {
+  @include large-wrapper;
+}
+
 .galleries__list {
   @include list-reset;
 }
