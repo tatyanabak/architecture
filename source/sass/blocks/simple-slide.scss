@@ -1,9 +1,45 @@
+.simple-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 620px;
+
+  background-image: url("../img/simple-slider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  outline: 1px solid gold;
+}
+
+.simple-slide__category {
+  margin-top: 100px;
+}
+
 .simple-slide__title {
+  width: 75%;
+  max-width: 860px;
+  margin-top: 75px;
+
   font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2em;
   text-align: center;
   color: $color-basic-contrast;
+
+  @media (min-width: $tablet-width) {
+    font-size: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+  }
 }
 
 .simple-slide__title span {
   font-weight: 300;
+}
+
+.simple-slide__link {
+  margin-bottom: 170px;
 }

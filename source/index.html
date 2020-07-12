@@ -33,25 +33,25 @@
       <section class="slider">
         <h2 class="visually-hidden">Популярные статьи</h2>
         <ul class="slider__list">
-          <li class="slider__item">
+          <li class="slider__item" data-slider="slider-glass">
             <article class="slide slide--glass">
               <h3 class="slide__title">Стекло. Красота и безопасность в архитектуре</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="slider__item slider__item--current">
+          <li class="slider__item slider__item--current" data-slider="news">
             <article class="slide slide--news">
-              <h3 class="slide__title slide__title--current">Самые актуальные архитектурные новости</h3>
+              <h3 class="slide__title">Самые актуальные архитектурные новости</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="slider__item slider__item--secondary1">
+          <li class="slider__item" data-slider="fashion-2019">
             <article class="slide slide--fashion-2019">
               <h3 class="slide__title">Архитектурная мода 2019 года</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="slider__item slider__item--secondary2">
+          <li class="slider__item" data-slider="modern-building">
             <article class="slide slide--modern-building">
               <h3 class="slide__title">Современные строения</h3>
               <a class="slide__link btn btn--transparent" href="#">Cмотреть</a>
@@ -61,16 +61,16 @@
         <div class="slider__control">
           <ol class="slider__control-list">
             <li class="slider__control-item">
-              <button class="slider__toggle" type="button">Слайд со стеклом, красотой и безопасностью в архитектуре</button>
+              <button class="slider__toggle" type="button" data-slider="glass">Слайд со стеклом, красотой и безопасностью в архитектуре</button>
             </li>
             <li class="slider__control-item">
-              <button class="slider__toggle slider__toggle--current" type="button">Слайд с самыми актуальными архитектурными новостями</button>
+              <button class="slider__toggle" type="button" data-slider="news">Слайд с самыми актуальными архитектурными новостями</button>
             </li>
             <li class="slider__control-item">
-              <button class="slider__toggle" type="button">Слайд с архитектурной модой 2019 года</button>
+              <button class="slider__toggle" type="button" data-slider="fashion-2019">Слайд с архитектурной модой 2019 года</button>
             </li>
             <li class="slider__control-item">
-              <button class="slider__toggle" type="button">Слайд с современными строениями</button>
+              <button class="slider__toggle" type="button" data-slider="modern-building">Слайд с современными строениями</button>
             </li>
           </ol>
         </div>
@@ -133,35 +133,61 @@
       <section class="simple-slider">
         <h2 class="visually-hidden">Интересные статьи</h2>
         <ul class="simple-slider__list">
-          <li class="simple-slider__item">
+          <li class="simple-slider__item visually-hidden" data-simple-slider="news">
             <article class="simple-slide">
-              <a class="category">Архитектурные новости</a>
+              <a class="simple-slide__category category">Архитектурные новости</a>
               <h3 class="simple-slide__title">Архитектурная мода 2020 года</h3>
               <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="simple-slider__item simple-slider__item--current">
+          <li class="simple-slider__item simple-slider__item--current" data-simple-slider="unusial-building">
             <article class="simple-slide">
-              <a class="category">Архитектурные новости</a>
+              <a class="simple-slide__category category">Архитектурные новости</a>
               <h3 class="simple-slide__title"><span>Самые необычные здания</span> во всем мире</h3>
               <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="simple-slider__item">
+          <li class="simple-slider__item visually-hidden" data-simple-slider="winner">
             <article class="simple-slide">
-              <a class="category">Архитектурные новости</a>
+              <a class="simple-slide__category category">Архитектурные новости</a>
               <h3 class="simple-slide__title">Объявлены победители<span> Архитектурной премии Москвы 2020</span></h3>
               <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
-          <li class="simple-slider__item">
+          <li class="simple-slider__item visually-hidden" data-simple-slider="prize">
             <article class="simple-slide">
-              <a class="category">Архитектурные новости</a>
+              <a class="simple-slide__category category">Архитектурные новости</a>
               <h3 class="simple-slide__title"><span>MosBuild объявляет о запуске</span> премии для молодых архитекторов и студентов</h3>
               <a class="simple-slide__link btn btn--transparent" href="#">Cмотреть</a>
             </article>
           </li>
         </ul>
+        <div class="simple-slider__control">
+          <ul class="simple-slider__control-list">
+            <li class="simple-slider__control-item">
+              <button class="simple-slider__toggle" type="button" data-simple-slider="news">Слайд с победителем Архитектурной премии Москвы</button>
+            </li>
+            <li class="simple-slider__control-item">
+              <button class="simple-slider__toggle simple-slider__toggle--current" type="button" data-simple-slider="unusial-building">Слайд с самыми необычными зданиями во всем мире</button>
+            </li>
+            <li class="simple-slider__control-item">
+              <button class="simple-slider__toggle" type="button" data-simple-slider="winner">Слайд с победителем Архитектурной премии Москвы</button>
+            </li>
+            <li class="simple-slider__control-item">
+              <button class="simple-slider__toggle" type="button" data-simple-slider="prize">Слайд о запуске премии для молодых архитекторов и студентов</button>
+            </li>
+          </ul>
+        </div>
+        <div class="simple-slider__btn-wrapper">
+          <ul class="simple-slider__btn-list">
+            <li class="simple-slider__btn-item">
+              <button class="simple-slider__btn simple-slider__btn--prev" type="button">Предыдущий слайд</button>
+            </li>
+            <li class="simple-slider__btn-item">
+              <button class="simple-slider__btn simple-slider__btn--next" type="button">Следующий слайд</button>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="subscription">
         <h2 class="subscription__title">Подпишитесь на нашу e-mail рассылку</h2>
@@ -198,5 +224,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src = "js/main.js"></script>
   </body>
 </html>
