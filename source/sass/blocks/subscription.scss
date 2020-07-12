@@ -12,5 +12,6 @@
 }
 
 .subscription__form {
-  @include wrapper;
+  margin-right: $mobile-indent;
+  margin-left: $mobile-indent;
 }
