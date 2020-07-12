@@ -7,6 +7,29 @@
   padding: 60px;
 
   background-color: #404040;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--news {
+    background-image: url("../img/slider-news.png");
+  }
+
+  &--fashion-2019 {
+    background-image: url("../img/slider-fashion-2019.png");
+  }
+
+  &--modern-building {
+    background-image: url("../img/slider-modern-building.png");
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 60px 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 60px;
+  }
 }
 
 .slide__title {
@@ -14,9 +37,17 @@
   margin-bottom: 30px;
 
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2em;
   color: $color-basic-contrast;
+
+  &--current {
+    font-size: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+  }
 
   &--current {
     font-size: 36px;

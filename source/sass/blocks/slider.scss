@@ -12,27 +12,51 @@
 
   @include list-reset;
 
-  @media (min-width: $desktop-width) {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  @media (min-width: $tablet-width) {
+    display: grid;
     justify-content: space-between;
+    height: calc(490px + 8px + 240px);
+
+    grid-gap: 8px;
+    grid-template-areas: "slider-current slider-current"
+    "slider1 slider2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 490px 240px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 490px;
+
+    grid-template-areas: "slider-current slider1"
+    "slider-current slider2";
+    grid-template-columns: 66% 32%;
+    grid-template-rows: 240px;
   }
 }
 
 .slider__item {
+  display: none;
+
   &--current {
-    width: 100%;
+    display: block;
     height: 490px;
   }
 
-  @media (min-width: $desktop-width) {
-    width: 373px;
-    height: 240px;
-
+  @media (min-width: $tablet-width) {
     &--current {
-      width: 780px;
-      height: 490px;
+      grid-area: slider-current;
+    }
+
+    &--secondary1 {
+      display: block;
+
+      grid-area: slider1;
+    }
+
+    &--secondary2 {
+      display: block;
+
+      grid-area: slider2;
     }
   }
 }
